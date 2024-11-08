@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(img.jpg);
+}
+.converter {
+    background-color: #d78e8e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+.converter h2 {
+    margin-bottom: 20px;
+}
+.converter label, .converter input, .converter select {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+.converter button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.converter button:hover {
+    background-color: #555;
+}
